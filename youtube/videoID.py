@@ -60,7 +60,7 @@ def getInfo(query):
 
             return requests.get(video_url, params=parameter_video).json()
         else:
-            return None
+            return 0
 
             #parameter_channel = {
             #    "key": yt_api_key,

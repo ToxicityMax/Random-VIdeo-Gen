@@ -31,6 +31,12 @@
                             <strong>{{error_qouta}}</strong>
                         </div>
                     {% endif %}
+                    {% if error_qouta%}
+                        <div style="margin-top:50px; margin-left:400px;" class="alert alert-success alert-dismissible fade show" >
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <strong>{{error_channe}}</strong>
+                        </div>
+                    {% endif %}
 
                     {% if error %}
                         <div style="margin-top:50px; margin-left:400px;" class="alert alert-danger alert-dismissible">

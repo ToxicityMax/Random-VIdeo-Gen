@@ -39,6 +39,12 @@ def home(request):
                 "youtube/home.html",
                 {"error_qouta": "Youtube API qouta exceeded"},
             )
+        elif result_video == 0:
+            return render(
+                request,
+                "youtube/home.html",
+                {"error_channel": "Error in Search"},
+            )
 
         else:
 
