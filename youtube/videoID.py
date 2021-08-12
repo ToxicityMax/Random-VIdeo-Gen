@@ -1,7 +1,7 @@
 import requests
 from .randomWords import genWords
 
-yt_api_key = "AIzaSyBvSej7w_2Aa_C79eWRBY0AYCrYbuKuM74"
+yt_api_key = "YOUR_API_KEY"
 search_url = "https://www.googleapis.com/youtube/v3/search"
 video_url = "https://www.googleapis.com/youtube/v3/videos"
 channel_url = "https://www.googleapis.com/youtube/v3/channels"
